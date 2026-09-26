@@ -1,0 +1,9 @@
+ProductKey,ProductName,Category,UnitCost,UnitPrice
+201,Laptop,Electronics,900000,1200000
+202,Smartphone,Electronics,350000,500000
+203,Tablet,Electronics,450000,650000
+204,Monitor,Electronics,300000,450000
+205,Keyboard,Accessories,50000,80000
+206,Mouse,Accessories,30000,50000
+207,Printer,Office Equipment,400000,550000
+208,Office Chair,Furniture,250000,350000
