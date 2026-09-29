@@ -1,4 +1,16 @@
 import pandas as pd
+from sqlalchemy import create_engine
+
+engine = create_engine(
+    "postgresql+psycopg2://postgres:Gauden%3F1450@localhost:5432/retail_sales"
+)
+
+df = pd.read_sql("SELECT * FROM sales", engine)
+
+print(df.head())
+print("\nNumber of rows:", len(df))
+
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
